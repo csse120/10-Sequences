@@ -60,7 +60,8 @@ def examples_of_indexing(sequence):
     # The   len   function returns the length of a sequence.
     # -------------------------------------------------------------------------
     length = len(sequence)
-    print('\nLength is', length)
+    print()
+    print('Length is', length)
 
     # -------------------------------------------------------------------------
     # Refer to specific items in the sequence
@@ -68,7 +69,8 @@ def examples_of_indexing(sequence):
     # with the INDEX placed inside the square brackets.
     # The numbering for indices starts at ZERO (not at one).
     # -------------------------------------------------------------------------
-    print('\nAt indices 0, 1 and 4:')
+    print()
+    print('At indices 0, 1 and 4:')
     print(sequence[0])
     print(sequence[1])
     print(sequence[4])
@@ -77,7 +79,8 @@ def examples_of_indexing(sequence):
     # Use the square bracket notation in a loop to iterate through
     # the entire sequence.  Note how the index variable  k  is used.
     # -------------------------------------------------------------------------
-    print('\nList them all:')
+    print()
+    print('List them all:')
     for k in range(len(sequence)):
         print(sequence[k], end=' ')  # end=' ' for SPACE after print
     print()
@@ -85,7 +88,8 @@ def examples_of_indexing(sequence):
     # -------------------------------------------------------------------------
     # This language allows negative indices.  Most languages do NOT.
     # -------------------------------------------------------------------------
-    print('\nCool stuff:')
+    print()
+    print('Cool stuff:')
     print(sequence[-1])  # Cool! Look up 'slicing' for even cooler stuff
 
     # -------------------------------------------------------------------------
@@ -93,7 +97,8 @@ def examples_of_indexing(sequence):
     # length of the sequence MINUS ONE.  Attempts to index past the end
     # of a sequence results in a run-time error 'index out of range'.
     # -------------------------------------------------------------------------
-    print('\nLast item, then one past the last item (causes an error):')
+    print()
+    print('Last item, then one past the last item (causes an error):')
     length = len(sequence)
     print(sequence[length - 1])  # Last item in the sequence.
 

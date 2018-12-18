@@ -22,12 +22,11 @@ def main():
     run_test_fill_from_colors()
     run_test_print_letters()
 
+
 ###############################################################################
 # The TEST functions are further down in the file,
 # so that you can focus on the following examples.
 ###############################################################################
-
-
 def sum_abs_of_all(sequence):
     """
     What comes in:
@@ -122,11 +121,10 @@ def print_letters(string):
     for k in range(len(string)):
         print(string[k])
 
+
 ###############################################################################
 # Just TEST functions below here.
 ###############################################################################
-
-
 def run_test_sum_abs_of_all():
     """ Tests the   sum_abs_of_all   function. """
     print()

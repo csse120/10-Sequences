@@ -8,8 +8,9 @@ through a SEQUENCE.
 It also demonstrates using an ORACLE and/or PROBABILITY THEORY
 in testing and BOUNDARY (EDGE) TESTING.
 
-Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
+         Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
+         and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import random
@@ -32,7 +33,7 @@ def run_test_sum_sequence():
     print('Testing the   sum_sequence   function:')
     print('--------------------------------------------------')
 
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 2. READ the COMMENTS and CODE in this function,
     #  asking questions as needed.
     #
@@ -42,9 +43,9 @@ def run_test_sum_sequence():
     #     -- How one can test using PROBABILITY THEORY
     #   then:
     #      change the above TO DO to DONE.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # Here (below) are examples of using an ORACLE for testing,
     # that is, using a separate way of gaining the correct tests as if
     # by "magic". The oracle here is the built-in    sum    function.
@@ -52,11 +53,11 @@ def run_test_sum_sequence():
     #
     # BTW, google for  "Oracle of Delphi" if you are curious about
     # why we call such tests "oracles".
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # Test 1 (using an ORACLE to computer the expected answer):
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     sequence1 = [48, -10, 100, 9939309808, 433443080, -45634930]
 
     oracle_answer = builtins.sum(sequence1)
@@ -68,9 +69,9 @@ def run_test_sum_sequence():
     print('  Expected (oracle) result: ', oracle_answer)
     print('  Actual result:            ', actual_answer)
 
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # Test 2 (using an ORACLE to computer the expected answer):
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     sequence2 = [48, 180, -475, 205, 88]
 
     oracle_answer = builtins.sum(sequence2)
@@ -82,13 +83,13 @@ def run_test_sum_sequence():
     print('  Expected (oracle) result: ', oracle_answer)
     print('  Actual result:            ', actual_answer)
 
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # Test 3 (using an ORACLE to compute the expected answer):
     #
     #   This test uses a RANDOMLY generated sequence,
     #   so every time you run the program it does a DIFFERENT test!
     #   So this code snippet can be used to do MANY tests!
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
     # The next few lines make a sequence of 10,000 RANDOM numbers:
     sequence3 = []
@@ -104,7 +105,7 @@ def run_test_sum_sequence():
     print('  Expected (oracle) result: ', oracle_answer)
     print('  Actual result:            ', actual_answer)
 
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # Tests 4 and 5:  using a KNOWN answer
     #   (here, ones easily computed by hand).]
     #
@@ -117,7 +118,7 @@ def run_test_sum_sequence():
     #   The above quotation is a slight paraphrase from the Wikipedia
     #   article at https://en.wikipedia.org/wiki/Boundary_testing.
     #
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
     # Test 4:
     sequence4 = [48, -10]
@@ -143,7 +144,7 @@ def run_test_sum_sequence():
     print('  Expected (known) result: ', known_answer)
     print('  Actual result:           ', actual_answer)
 
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # Test 6:  (Don't worry if you don't follow this example fully.)
     #
     #   Like Test 3, this test uses a RANDOMLY generated sequence.
@@ -162,7 +163,7 @@ def run_test_sum_sequence():
     #
     #   See https://en.wikipedia.org/wiki/Law_of_large_numbers
     #   for a not-too-clear explanation of the Law of Large Numbers.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
     # Skips this test if  sum_sequence  has not yet been implemented:
     if sum_sequence([1, 2, 3]) == None:
@@ -202,7 +203,7 @@ def sum_sequence(sequence):
     Type hints:
       :type sequence: list or tuple (of integers)
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 3. Implement and test this function.
     #          Tests have been written for you (above).
     #
@@ -211,19 +212,19 @@ def sum_sequence(sequence):
     #    in IMPLEMENTING this function.
     #      -- The TESTING code above does use   built_ins.sum
     #         as an ORACLE in TESTING this function, however.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
 def run_test_count_items_bigger_than():
     """ Tests the   count_items_bigger_than   function. """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 4. Implement this TEST function.
     #   It TESTS the  count_items_bigger_than  function defined below.
     #   Include at least ** 2 ** ADDITIONAL tests.
     #
     #   As usual, include both EXPECTED and ACTUAL results in your test
     #   and compute the latter BY HAND (not by running your program).
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
     print('Testing the   count_items_bigger_than   function:')
@@ -341,7 +342,7 @@ def run_test_count_items_bigger_than():
     print('  to see whether or not that seems to be true')
     print('  for your code (and Python\'s pseudo-random numbers).')
 
-    # TO DO 4 (continued):  Add your 2 ADDITIONAL tests here:
+    # TODO 4 (continued):  Add your 2 ADDITIONAL tests here:
 
 
 def count_items_bigger_than(numbers, threshold):
@@ -377,15 +378,15 @@ def count_items_bigger_than(numbers, threshold):
       :type numbers:   list or tuple (of numbers)
       :type threshold: float
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 5. Implement and test this function.
     #   Note that you should write its TEST function first (above).
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
 def run_test_count_positive_sines():
     """ Tests the   count_positive_sines   function. """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 6. Implement this TEST function.
     #   It TESTS the  count_positive_sines  function defined below.
     #   Include at least ** 1 ** ADDITIONAL test beyond what we supplied.
@@ -397,7 +398,7 @@ def run_test_count_positive_sines():
     #   for example math.sin(math.pi), are in fact slightly positive.
     #   That is because   math.pi   is not exact (nor is math.sin).
     #   Simply stay away from such test cases in this problem.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
     print('Testing the   count_positive_sines   function:')
@@ -507,22 +508,22 @@ def count_positive_sines(numbers):
     Type hints:
       :type sequence: list or tuple (of numbers)
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 7. Implement and test this function.
     #   Note that you should write its TEST function first (above).
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
 def run_test_sum_first_n():
     """ Tests the   sum_first_n   function. """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 8. Implement this TEST function.
     #   It TESTS the  sum_first_n  function defined below.
     #   Include at least ** 2 ** ADDITIONAL tests.
     #
     #   As usual, include both EXPECTED and ACTUAL results in your test
     #   and compute the latter BY HAND (not by running your program).
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
     print('Testing the   sum_first_n   function:')
@@ -609,7 +610,7 @@ def sum_first_n(numbers, n):
       :type numbers:   list of tuple (of numbers)
       :type n: int
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 9. Implement and test this function.
     #          Tests have been written for you (above).
     #
@@ -618,9 +619,9 @@ def sum_first_n(numbers, n):
     #    in IMPLEMENTING this function.
     #      -- The TESTING code above does use   built_ins.sum
     #         as an ORACLE in TESTING this function, however.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 main()

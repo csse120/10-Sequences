@@ -12,8 +12,9 @@ Note that:
 is different from:
   -- LOOKING only at items AT even-numbered indices.
 
-Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
+         Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
+         and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
@@ -21,21 +22,21 @@ import rosegraphics as rg
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 2.  EXAMINE the  4  sequences immediately below
     #   this comment, and READ the instructions that follows them.
     #
     # When you have examined the 4 sequences below and understand how
     # the testing will work for this module, asking questions as needed,
     # THEN:
-    #     change the above TO DO to DONE.
-    # ------------------------------------------------------------------
+    #     change the above _TODO_ to DONE.
+    # -------------------------------------------------------------------------
     sequence1 = [55, 'hello', 33, rg.Point(90, 25)]  # List
     sequence2 = [90, 'dog', 87, 'cat', 'bone', 33, 100]  # List
     sequence3 = 'Yo! Whazup?'  # String
     sequence4 = ('This', 'is a', 'tuple', 55)  # Tuple
 
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # STUDENTS: Do the work in this module as follows.
     #   Otherwise, you will be overwhelmed by the output.
     #
@@ -45,7 +46,7 @@ def main():
     #     2. UN-comment only one test at a time.
     #     3. Implement that function per its TO DO.
     #     4. When satisfied with your work, move onto the next test.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
     run_test_print_all_items_forwards(sequence1, sequence2, sequence3, sequence4)
 #     run_test_print_all_items_backwards(sequence1, sequence2, sequence3, sequence4)
@@ -338,9 +339,9 @@ def run_test_print_items_that_are_odd_integers(sequence1, sequence2, sequence3, 
     print_items_that_are_odd_integers([90, 'dog', 87, 95, 8, 10, 5, 77])
 
 
-# ----------------------------------------------------------------------
+###############################################################################
 # Iterating through the ENTIRE sequence, FORWARDs.
-# ----------------------------------------------------------------------
+###############################################################################
 def print_all_items_forwards(sequence):
     """
     Prints the items in the given sequence in the order that
@@ -353,15 +354,15 @@ def print_all_items_forwards(sequence):
        33
        Point at (90, 25)
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 3. Implement and test this function.
     #          Tests have been written for you (above).
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
-# ----------------------------------------------------------------------
+###############################################################################
 # Iterating through the ENTIRE sequence, BACKWARDs.
-# ----------------------------------------------------------------------
+###############################################################################
 def print_all_items_backwards(sequence):
     """
     Prints the items in the given sequence in the REVERSE of the order
@@ -375,16 +376,16 @@ def print_all_items_backwards(sequence):
        hello
        55
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 4. Implement and test this function.
     #          Tests have been written for you (above).
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
-# ----------------------------------------------------------------------
+###############################################################################
 # Iterating through PART of a sequence:
 #   -- in this sample problem, every other item in the sequence.
-# ----------------------------------------------------------------------
+###############################################################################
 def print_items_at_odd_indices(sequence):
     """
     Prints the items at the odd-numbered indices in the given sequence,
@@ -397,16 +398,16 @@ def print_items_at_odd_indices(sequence):
       95 is at index 3
       33 is at index 5
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 5. Implement and test this function.
     #          Tests have been written for you (above).
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
-# ----------------------------------------------------------------------
+###############################################################################
 # Iterating through PART of a sequence:
 #   -- in this sample problem, the second half.
-# ----------------------------------------------------------------------
+###############################################################################
 def print_items_in_second_half(sequence):
     """
     Prints the items in the second half of the given sequence.
@@ -419,7 +420,7 @@ def print_items_in_second_half(sequence):
       33
       100
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 6. Implement and test this function.
     #          Tests have been written for you (above).
     #
@@ -429,13 +430,13 @@ def print_items_in_second_half(sequence):
     #
     # IMPORTANT: RANGE expressions need INTEGERS.
     #   Use   //   for integer division.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
-# ----------------------------------------------------------------------
+###############################################################################
 # Iterating through a sequence, selecting items:
 #   -- in this sample problem, the items that are bigger than 5.
-# ----------------------------------------------------------------------
+###############################################################################
 def print_items_that_are_bigger_than_5(sequence):
     """
     Prints the items in the given sequence that are bigger than 5,
@@ -451,16 +452,16 @@ def print_items_that_are_bigger_than_5(sequence):
 
     Precondition: All the items in the sequence are integers.
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 7. Implement and test this function.
     #          Tests have been written for you (above).
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
-# ----------------------------------------------------------------------
+###############################################################################
 # Iterating through a sequence, selecting items:
 #   -- in this sample problem, the items that are strings.
-# ----------------------------------------------------------------------
+###############################################################################
 def print_items_that_are_strings(sequence):
     """
     Prints the items in the given sequence that are strings,
@@ -473,7 +474,7 @@ def print_items_that_are_strings(sequence):
       cat is at index 3
       bone is at index 4
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 8. Implement and test this function.
     #
     # IMPORTANT:
@@ -485,13 +486,13 @@ def print_items_that_are_strings(sequence):
     #        would be how you would test whether 'hello' is a string.
     #
     #        Note that   str   has NO quotes surrounding it.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
-# ----------------------------------------------------------------------
+###############################################################################
 # Iterating through a sequence, selecting items:
 #   -- in this sample problem, the items that are odd integers.
-# ----------------------------------------------------------------------
+###############################################################################
 def print_items_that_are_odd_integers(sequence):
     """
     Prints the items in the given sequence that are odd integers,
@@ -504,14 +505,14 @@ def print_items_that_are_odd_integers(sequence):
       87 is at index 2
       33 is at index 5
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 9. Implement and test this function.
     #
     # IMPORTANT:  The  type  function returns  int  if its argument
     #   is an integer.  Note that   int   has NO quotes surrounding it.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 main()

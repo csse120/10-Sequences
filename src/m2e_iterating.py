@@ -8,8 +8,8 @@ It shows two ways to do so:
   -- using RANGE
   -- using just IN (no RANGE)
 
-Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         and their colleagues.
+Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
+         Mark Hays, Amanda Stouder, Aaron Wilkin, and their colleagues.
 """
 
 import rosegraphics as rg
@@ -22,10 +22,10 @@ def main():
     run_test_fill_from_colors()
     run_test_print_letters()
 
-# ----------------------------------------------------------------------
+###############################################################################
 # The TEST functions are further down in the file,
 # so that you can focus on the following examples.
-# ----------------------------------------------------------------------
+###############################################################################
 
 
 def sum_abs_of_all(sequence):
@@ -43,9 +43,9 @@ def sum_abs_of_all(sequence):
     Type hints:
       :type sequence: list or tuple (of numbers)
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # EXAMPLE 1.  Iterates through a sequence of numbers, summing them.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     total = 0
     for k in range(len(sequence)):
         total = total + abs(sequence[k])
@@ -58,17 +58,17 @@ def sum_abs_of_all_without_range(sequence):
     Same specification as  sum_abs_of_all  above,
     but with a different implementation.
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # EXAMPLE 2.  Iterates through a sequence of numbers, summing them.
     #   Same as Example 1 above, but uses the "no range" form.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     total = 0
     for number in sequence:
         total = total + abs(number)
 
     return total
 
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # The above example shows how you can iterate through a sequence
     # WITHOUT using a RANGE expression.  This works ONLY
     #   ** IF you do NOT need the index variable. **
@@ -80,7 +80,7 @@ def sum_abs_of_all_without_range(sequence):
     #        concept of an INDEX.
     #   -- Be aware of the limitation of this form.
     #   -- Don't confuse the two forms!
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
 def fill_from_colors(window, graphics_object, colors):
@@ -102,9 +102,9 @@ def fill_from_colors(window, graphics_object, colors):
       :type graphics_object: rg._Shape
       :type colors: list or tuple str
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # EXAMPLE 3.  Iterates through a sequence of colors.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     graphics_object.attach_to(window)
 
     for k in range(len(colors)):
@@ -116,15 +116,15 @@ def print_letters(string):
     """
     Prints the characters in the given string, one character per line.
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # EXAMPLE 4.  Iterates through a STRING.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     for k in range(len(string)):
         print(string[k])
 
-# ----------------------------------------------------------------------
+###############################################################################
 # Just TEST functions below here.
-# ----------------------------------------------------------------------
+###############################################################################
 
 
 def run_test_sum_abs_of_all():
@@ -168,9 +168,9 @@ def run_test_fill_from_colors():
     print('See the two graphics windows that pop up.')
     print('--------------------------------------------------')
 
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # Test 1: Flashes red, white, blue -- 5 times.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     title = 'Red, white and blue, repeated 5 times!'
     window = rg.RoseWindow(400, 180, title, canvas_color='dark gray')
 
@@ -185,10 +185,10 @@ def run_test_fill_from_colors():
 
     window.close_on_mouse_click()
 
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # Test 2: Flashes through a bunch of colors, looping through the
     # list forwards in a rectangle, then backwards in an ellipse.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     colors = ['red', 'white', 'blue', 'chartreuse', 'chocolate',
               'DodgerBlue', 'LightPink', 'maroon', 'yellow', 'green',
               'SteelBlue', 'black']
@@ -250,7 +250,7 @@ def run_test_print_letters():
     print_letters('Layla')
 
 
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 main()

@@ -3,8 +3,9 @@ This module lets you practice the ITERATE-THROUGH-A-SEQUENCE pattern
 in its most classic form:
   -- Iterate all the way through the sequence, from beginning to end.
 
-Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
+         Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
+         and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
@@ -19,7 +20,7 @@ def main():
 
 def run_test_count_negatives():
     """ Tests the   count_negatives   function. """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 2. Implement this TEST function.
     #   It TESTS the  count_negatives  function defined below.
     #   Include at least ** 2 ** ADDITIONAL tests beyond those we wrote.
@@ -40,7 +41,7 @@ def run_test_count_negatives():
     #   Step 4: Write code that prints both the EXPECTED answer
     #     and the ACTUAL answer returned when you call the function.
     #     Follow the same form as in the test case we provided below.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
     print('Testing the   count_negatives   function:')
@@ -81,8 +82,9 @@ def run_test_count_negatives():
     print('Test 5 expected:', expected)
     print('       actual:  ', actual)
 
-    # TO DO 2 (continued):  Add your 2 ADDITIONAL tests here:
-
+    # -------------------------------------------------------------------------
+    # TODO 2 (continued):  Add your 2 ADDITIONAL tests here:
+    # -------------------------------------------------------------------------
 
 def count_negatives(seq):
     """
@@ -99,21 +101,21 @@ def count_negatives(seq):
     Type hints:
       :type seq: (list | tuple) of (int | float)
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 3. Implement and test this function.
     #   Note that you should write its TEST function first (above).
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
 def run_test_count_short_ones():
     """ Tests the   count_short_ones   function. """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 4. Implement this TEST function.
     #   It TESTS the  count_short_ones  function defined below.
     #   Include at least ** 2 ** ADDITIONAL tests beyond those we wrote.
     #
     # Use the same 4-step process as for previous TEST functions.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
     print('Testing the   count_short_ones   function:')
@@ -181,7 +183,9 @@ def run_test_count_short_ones():
     print('Test 7 expected:', expected)
     print('       actual:  ', actual)
 
-    # TO DO 4 (continued):  Add your 2 ADDITIONAL test(s) here:
+    # -------------------------------------------------------------------------
+    # TODO 4 (continued):  Add your 2 ADDITIONAL test(s) here:
+    # -------------------------------------------------------------------------
 
 
 def count_short_ones(seq_of_lists):
@@ -212,11 +216,11 @@ def count_short_ones(seq_of_lists):
 
 def run_test_draw_circles():
     """ Tests the   draw_circles   function. """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # We have supplied two tests for you, on a single window.
     # NO ADDITIONAL TESTS ARE REQUIRED, although you are welcome to
     # supply more tests if you choose.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
     print('Testing the   draw_circles   function:')
@@ -285,13 +289,13 @@ def draw_circles(window, points, radius, color):
       :type radius: int | float
       :type color: str
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 6. Implement and test this function.
     #          Tests have been written for you (above).
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 main()

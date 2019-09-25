@@ -4,7 +4,7 @@ in its most classic form:
   -- Iterate all the way through the sequence, from beginning to end.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
+         Mark Hays, Amanda Stouder, Derek Whitley, their colleagues,
          and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
@@ -24,20 +24,20 @@ def run_test_count_negatives():
     # TODO: 2. Implement this TEST function.
     #   It TESTS the  count_negatives  function defined below.
     #   Include at least ** 2 ** ADDITIONAL tests beyond those we wrote.
-    #
-    # Use the same 4-step process as for previous TEST functions:
-    #
+    #   ___
+    #   Use the same 4-step process as for previous TEST functions:
+    #   ___
     #   Step 1: Read the doc-string (below) that provides the
     #     specification of the function you are to test.
     #     Understand what that function SHOULD return.
-    #
+    #   ___
     #   Step 2:  Pick a test case:  numbers that you could send as
     #     actual arguments to the function.
-    #
+    #   ___
     #   Step 3: Figure out (by hand, or by trusting a test case that
     #     your instructor provided) the CORRECT (EXPECTED) answer
     #     for your test case.
-    #
+    #   ___
     #   Step 4: Write code that prints both the EXPECTED answer
     #     and the ACTUAL answer returned when you call the function.
     #     Follow the same form as in the test case we provided below.
@@ -114,8 +114,8 @@ def run_test_count_short_ones():
     # TODO: 4. Implement this TEST function.
     #   It TESTS the  count_short_ones  function defined below.
     #   Include at least ** 2 ** ADDITIONAL tests beyond those we wrote.
-    #
-    # Use the same 4-step process as for previous TEST functions.
+    #  ___
+    #  Use the same 4-step process as for previous TEST functions.
     # -------------------------------------------------------------------------
     print()
     print('--------------------------------------------------')

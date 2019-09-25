@@ -9,7 +9,7 @@ It shows two ways to do so:
   -- using just IN (no RANGE)
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Mark Hays, Amanda Stouder, Aaron Wilkin, and their colleagues.
+         Mark Hays, Amanda Stouder, Derek Whitley, and their colleagues.
 """
 
 import rosegraphics as rg

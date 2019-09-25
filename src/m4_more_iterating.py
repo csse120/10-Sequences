@@ -9,7 +9,7 @@ It also demonstrates using an ORACLE and/or PROBABILITY THEORY
 in testing and BOUNDARY (EDGE) TESTING.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
+         Mark Hays, Amanda Stouder, Derek Whitley, their colleagues,
          and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
@@ -35,8 +35,8 @@ def run_test_sum_sequence():
 
     # -------------------------------------------------------------------------
     # TODO: 2. READ the COMMENTS and CODE in this function,
-    #  asking questions as needed.
-    #
+    #   asking questions as needed.
+    #   ___
     #   When you believe that you understand:
     #     -- What an ORACLE is
     #     -- How one can generate and use RANDOM test cases
@@ -117,7 +117,6 @@ def run_test_sum_sequence():
     #
     #   The above quotation is a slight paraphrase from the Wikipedia
     #   article at https://en.wikipedia.org/wiki/Boundary_testing.
-    #
     # -------------------------------------------------------------------------
 
     # Test 4:
@@ -206,12 +205,12 @@ def sum_sequence(sequence):
     # -------------------------------------------------------------------------
     # TODO: 3. Implement and test this function.
     #          Tests have been written for you (above).
-    #
-    # RESTRICTION:
-    #    You may NOT use the built-in  sum   function
-    #    in IMPLEMENTING this function.
-    #      -- The TESTING code above does use   built_ins.sum
-    #         as an ORACLE in TESTING this function, however.
+    #   ___
+    #   RESTRICTION:
+    #     You may NOT use the built-in  sum   function
+    #     in IMPLEMENTING this function.
+    #       -- The TESTING code above does use   built_ins.sum
+    #          as an ORACLE in TESTING this function, however.
     # -------------------------------------------------------------------------
 
 
@@ -342,7 +341,7 @@ def run_test_count_items_bigger_than():
     print('  to see whether or not that seems to be true')
     print('  for your code (and Python\'s pseudo-random numbers).')
 
-    # TODO 4 (continued):  Add your 2 ADDITIONAL tests here:
+    # TODO: 4 (continued):  Add your 2 ADDITIONAL tests here:
 
 
 def count_items_bigger_than(numbers, threshold):
@@ -482,7 +481,7 @@ def run_test_count_positive_sines():
     print('Test 10 expected:', expected)
     print('        actual:  ', actual)
 
-    # TO DO 6 (continued):  Add your 1 ADDITIONAL test here:
+    # TODO: 6 (continued):  Add your 1 ADDITIONAL test here:
 
 
 def count_positive_sines(numbers):
@@ -520,7 +519,7 @@ def run_test_sum_first_n():
     # TODO: 8. Implement this TEST function.
     #   It TESTS the  sum_first_n  function defined below.
     #   Include at least ** 2 ** ADDITIONAL tests.
-    #
+    #   ___
     #   As usual, include both EXPECTED and ACTUAL results in your test
     #   and compute the latter BY HAND (not by running your program).
     # -------------------------------------------------------------------------
@@ -586,7 +585,7 @@ def run_test_sum_first_n():
     print('Test 7 expected:', expected)
     print('       actual:  ', actual)
 
-    # TO DO 8 (continued):  Add your 2 ADDITIONAL tests here:
+    # TODO: 8 (continued):  Add your 2 ADDITIONAL tests here:
 
 
 def sum_first_n(numbers, n):
@@ -613,8 +612,8 @@ def sum_first_n(numbers, n):
     # -------------------------------------------------------------------------
     # TODO: 9. Implement and test this function.
     #          Tests have been written for you (above).
-    #
-    # RESTRICTION:
+    #  ___
+    #  RESTRICTION:
     #    You may NOT use the built-in  sum   function
     #    in IMPLEMENTING this function.
     #      -- The TESTING code above does use   built_ins.sum

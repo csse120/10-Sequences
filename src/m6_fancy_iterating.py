@@ -13,7 +13,7 @@ is different from:
   -- LOOKING only at items AT even-numbered indices.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
+         Mark Hays, Amanda Stouder, Derek Whitley, their colleagues,
          and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
@@ -25,10 +25,10 @@ def main():
     # -------------------------------------------------------------------------
     # TODO: 2.  EXAMINE the  4  sequences immediately below
     #   this comment, and READ the instructions that follows them.
-    #
-    # When you have examined the 4 sequences below and understand how
-    # the testing will work for this module, asking questions as needed,
-    # THEN:
+    #  ___
+    #  When you have examined the 4 sequences below and understand how
+    #  the testing will work for this module, asking questions as needed,
+    #  THEN:
     #     change the above _TODO_ to DONE.
     # -------------------------------------------------------------------------
     sequence1 = [55, 'hello', 33, rg.Point(90, 25)]  # List
@@ -436,13 +436,13 @@ def print_items_in_second_half(sequence):
     # -------------------------------------------------------------------------
     # TODO: 6. Implement and test this function.
     #          Tests have been written for you (above).
-    #
-    # IMPORTANT: Don't get hung up on dealing with the middle item
-    #   being included or not.  Just try to solve the problem and adjust
-    #   if needed.  No conditional is needed under most implementations.
-    #
-    # IMPORTANT: RANGE expressions need INTEGERS.
-    #   Use   //   for integer division.
+    #  ___
+    #  IMPORTANT: Don't get hung up on dealing with the middle item
+    #    being included or not.  Just try to solve the problem and adjust
+    #    if needed.  No conditional is needed under most implementations.
+    #  ___
+    #  IMPORTANT: RANGE expressions need INTEGERS.
+    #    Use   //   for integer division.
     # -------------------------------------------------------------------------
 
 
@@ -489,15 +489,15 @@ def print_items_that_are_strings(sequence):
     """
     # -------------------------------------------------------------------------
     # TODO: 8. Implement and test this function.
-    #
-    # IMPORTANT:
-    #   -- A string is, by definition, an object whose type is   str.
-    #   -- The   type   function gives the type of an object.
-    #        For example,   type('hello')   returns   str.  So:
-    #            if type('hello') is str:
-    #                ...
-    #        would be how you would test whether 'hello' is a string.
-    #
+    #  ___
+    #  IMPORTANT:
+    #    -- A string is, by definition, an object whose type is   str.
+    #    -- The   type   function gives the type of an object.
+    #         For example,   type('hello')   returns   str.  So:
+    #             if type('hello') is str:
+    #                 ...
+    #         would be how you would test whether 'hello' is a string.
+    #  ___
     #        Note that   str   has NO quotes surrounding it.
     # -------------------------------------------------------------------------
 
@@ -520,9 +520,9 @@ def print_items_that_are_odd_integers(sequence):
     """
     # -------------------------------------------------------------------------
     # TODO: 9. Implement and test this function.
-    #
-    # IMPORTANT:  The  type  function returns  int  if its argument
-    #   is an integer.  Note that   int   has NO quotes surrounding it.
+    #  ___
+    #  IMPORTANT:  The  type  function returns  int  if its argument
+    #    is an integer.  Note that   int   has NO quotes surrounding it.
     # -------------------------------------------------------------------------
 
 
